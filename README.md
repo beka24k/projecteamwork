@@ -1,5 +1,5 @@
 # RPG Game Project
-
+![hello](https://media.tenor.com/kvXMS__Bkd8AAAAC/hello-hi.gif)
 ![RPG Logo](img_1.png)
 
 ## 📋Overview
