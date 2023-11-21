@@ -106,16 +106,67 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 ## 📸 Screenshots
 
 ![Code Screen](img_7.png)
-*Screenshot: Code Screen*
 
-![Database Structure](img_6.png)
-*Screenshot: Database Structure (ER Diagram)*
+
+![Database Structure]([img_6.png](https://www.instagram.com/p/Cz7GPKAsEwE/))
+
 
 # 📝Developers' Notes
 
 ## Design Patterns Used
 ### State Pattern
-**Role:
+Role: Aids in character attacks. It encapsulates various attack states, enabling characters to perform different attacks based on their state.
+
+### Factory Pattern
+Role: Responsible for creating new characters. It abstracts the creation process, allowing the creation of different character types through specialized factories.
+
+### Command Pattern
+Role: Facilitates character attacks by encapsulating the request to attack within a command object, enabling flexible execution of attack commands.
+
+### Observer Pattern
+Role: Alters the camp of all characters to the same state. It establishes a one-to-many relationship, notifying multiple characters about camp changes.
+
+### Strategy Pattern
+Role: Enables the selection of a character by defining interchangeable character strategies without altering their structure, allowing dynamic character selection.
+
+### Builder Pattern
+Role: Assists in character creation by separating the construction of a character object from its representation, allowing the same construction process to create different representations.
+
+### Singleton Pattern
+Role: Not directly associated with any class in this project. It includes a private constructor to restrict instantiation, ensuring only one instance of a class exists globally.
+
+
+## Code Modularity
+The project is designed with a focus on modularity, allowing for easy extension and addition of new character types or abilities. Each class encapsulates specific functionalities to ensure code coherence.
+
+## Abstraction and Interfaces
+Use of interfaces such as CharacterAbility, CharacterBuilder, and CharacterCommand promotes abstraction and helps in decoupling components, facilitating flexibility and easy swapping of implementations.
+
+## 📊Database Integration
+The dbConnect class manages PostgreSQL database connections, schema creation, and data insertion for character details. Tables and queries are structured for scalability and future expansion.
+
+## 🖥️GUI Implementation
+The GameGUI class offers a graphical interface for user interaction. GUI elements are designed for intuitive gameplay and seamless character creation.
+
+## Improvements and Future Work
+- Enhance character abilities and add new spells or attacks.
+- Implement additional GUI features for better user experience.
+- Expand database functionalities for storing more character details and game progress.
+- Refactor code for better readability and maintainability.
+
+## Dependencies
+- Java 11 or higher
+- PostgreSQL database
+
+## 🧑‍💻 Contribution Guidelines
+We welcome contributions through pull requests. Please adhere to the project's coding standards and guidelines.
+- Begarys Kanat 
+- Nargiza Sailaubaeva 
+- Merei Shakirova
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### 🛠️Installation
 GitHub: https://github.com/beka24k/projecteamwork.git
