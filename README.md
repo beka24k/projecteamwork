@@ -108,7 +108,7 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 ![Code Screen](img_7.png)
 
 
-![Database Structure]([img_6.png](https://www.instagram.com/p/Cz7GPKAsEwE/))
+![Database Structure](https://www.instagram.com/p/Cz7GPKAsEwE/?utm_source=ig_web_copy_link&igshid=ODhhZWM5NmIwOQ==)
 
 
 # 📝Developers' Notes
