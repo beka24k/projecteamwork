@@ -96,11 +96,7 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 - Java Development Kit (JDK)
 - PostgreSQL database installed
 
-### 🛠️Installation
 
-1. Clone the repository: git clone https://github.com/your-username/rpg-game.git
-2. Set up the database: Execute dbConnect.createCharacterTable().
-3. Run the game: Compile and execute GameWorld.java.
 
 ### 📚 Usage
 
@@ -121,8 +117,10 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 ### State Pattern
 **Role:
 
-## Installation
+### 🛠️Installation
+GitHub: https://github.com/beka24k/projecteamwork.git
 IntelliJ IDEA 2022.3.1
+
 ## Contributing
 Bug reports and\or pull requests are 
 ![gif](https://img.wattpad.com/6c151ba821ca2c749493262d427fb9d0324ec0fc/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6147354e6948476d6c62704b50673d3d2d3636303937343137322e313537323431383735386537393136303532343031303939363231302e676966)
