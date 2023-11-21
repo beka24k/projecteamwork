@@ -1,5 +1,6 @@
 # RPG Game Project
 ![hello](https://media.tenor.com/kvXMS__Bkd8AAAAC/hello-hi.gif)
+
 ![RPG Logo](img_1.png)
 
 ## 📋Overview
@@ -119,3 +120,13 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 ## Design Patterns Used
 ### State Pattern
 **Role:
+
+## Installation
+IntelliJ IDEA 2022.3.1
+## Contributing
+Bug reports and\or pull requests are 
+![gif](https://img.wattpad.com/6c151ba821ca2c749493262d427fb9d0324ec0fc/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6147354e6948476d6c62704b50673d3d2d3636303937343137322e313537323431383735386537393136303532343031303939363231302e676966)
+
+![welcome](https://poster.keepcalmandposters.com/4220629.jpg)
+
+![bye](https://media.tenor.com/5DcYGrosKfQAAAAC/bye-see-you.gif)
