@@ -11,7 +11,7 @@ public class AttackComand implements CharacterCommand {
 
     @Override
     public void execute() {
-        // Здесь определите логику атаки персонажа
+         character.hitPoint=false;
         character.performAction(); // Например, вызов метода атаки вашего персонажа
     }
 }

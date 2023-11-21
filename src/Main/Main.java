@@ -1,18 +1,22 @@
 package Main;
 
-import Ability.FireMagick;
-import Squad.Mage;
-import State.AliveState;
+import javax.swing.*;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Character mage=new Mage("Papirusio",new AliveState(),new FireMagick());
-        Character as=new Character("as",new AliveState(),new FireMagick());
-        as.attach(mage);
-        mage.performAction();
+    public static void main(String[] args){
+        JFrame window =new JFrame();
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setResizable(false);
+        window.setTitle("RPG Harem Game");
 
-        as.setCamp("bebe");
+        GameWorld gameWorld =new GameWorld();
+        window.add(gameWorld);
+
+        window.pack();
+        gameWorld.startGameThread();
+        window.setLocationRelativeTo(null);
+        window.setVisible(true);
+
 
     }
 }

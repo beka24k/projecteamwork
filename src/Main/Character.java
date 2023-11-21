@@ -3,15 +3,19 @@ package Main;
 import Ability.CharacterAbility;
 import Comand.CharacterCommand;
 import Observer.CharacterObserver;
+import State.AliveState;
 import State.CharacterState;
+import State.DeadState;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Character implements CharacterObserver {
-    private CharacterState state;
+    private CharacterState state =new AliveState();
     private CharacterAbility ability;
     private String name;
+    public boolean hitPoint;
+    private int damage;
     private List<CharacterObserver> observers = new ArrayList<CharacterObserver>();
 
 
@@ -60,14 +64,24 @@ public class Character implements CharacterObserver {
             attackCommand.execute();
         }
     }
-    public void performAction() {
 
+    public int getDamage() {
+        return damage;
+    }
+
+    public void performAction() {
+        hitPoint=true;
         ability.performAbility();
+        damage+=25;
         notifyAllObservers();
     }
     public void checkState(){
+        if(getHealth()<=0) {
+            this.state=new DeadState();
+        }
         state.change();
     }
+
 
     public void attach(CharacterObserver observer) {
         observers.add(observer);
@@ -82,5 +96,9 @@ public class Character implements CharacterObserver {
     @Override
     public void update() {
 
+    }
+
+    public int getHealth() {
+        return (100-damage);
     }
 }
