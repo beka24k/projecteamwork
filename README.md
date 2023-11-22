@@ -105,7 +105,7 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 ---
 ## 📸 Screenshots
 
-![Code Screen]()
+![Code Screen](https://github.com/beka24k/projecteamwork/blob/master/tesst/code.png)
 
 
 ![Database Structure](https://github.com/beka24k/projecteamwork/blob/master/tesst/photo_2023-11-22_10-50-23.jpg)
