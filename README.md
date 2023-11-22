@@ -1,7 +1,7 @@
 # RPG Game Project
 ![hello](https://media.tenor.com/kvXMS__Bkd8AAAAC/hello-hi.gif)
 
-![RPG Logo](img_1.png)
+![RPG Logo](https://github.com/beka24k/projecteamwork/blob/master/tesst/photo_2023-11-22_10-43-51.jpg)
 
 ## 📋Overview
 
@@ -105,10 +105,10 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 ---
 ## 📸 Screenshots
 
-![Code Screen](img_7.png)
+![Code Screen]()
 
 
-![Database Structure](img_6.png)
+![Database Structure](https://github.com/beka24k/projecteamwork/blob/master/tesst/photo_2023-11-22_10-50-23.jpg)
 
 
 # 📝Developers' Notes
