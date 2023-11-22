@@ -34,11 +34,11 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 
 <div style="display:flex; justify-content:center; align-items:center;">
     <div style="margin-right:20px;">
-        <img src="img_2.png" alt="Priest" width="300" height="230"/>
+        <img src="https://github.com/beka24k/projecteamwork/blob/master/tesst/priest.jpg" alt="Priest" width="300" height="230">
         <center><h3>Priest</h3></center>
     </div>
     <div style="margin-right:20px;">
-        <img src="img_3.png" alt="Magician" width="300" height="230"/>
+        <img src="https://github.com/beka24k/projecteamwork/blob/master/tesst/mage.jpg" alt="Magician" width="300" height="230">
         <center><h3>Magician</h3></center>
     </div>
 <div style="margin-right:20px;">
@@ -46,7 +46,7 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
         <center><h3>Barbarian</h3></center>
 </div>
  <div>
-        <img src="img_5.png" alt="Warrior" width="300" height="230"/>
+        <img src="https://github.com/beka24k/projecteamwork/blob/master/tesst/warrior.jpg" alt="Warrior" width="300" height="230">
 
 <center><h3>Warrior</h3></center>
     </div>
