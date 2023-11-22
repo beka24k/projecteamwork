@@ -42,7 +42,7 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
         <center><h3>Magician</h3></center>
     </div>
 <div style="margin-right:20px;">
-        <img src="(https://github.com/beka24k/projecteamwork/blob/master/tesst/barbarian.jpg)" alt="Barbarian" width="300" height="230"/>
+        ![barbarian]{(https://github.com/beka24k/projecteamwork/blob/master/tesst/barbarian.jpg)
         <center><h3>Barbarian</h3></center>
 </div>
  <div>
