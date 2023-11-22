@@ -1,7 +1,7 @@
 # RPG Game Project
 ![hello](https://media.tenor.com/kvXMS__Bkd8AAAAC/hello-hi.gif)
 
-![RPG Logo](img_1.png)
+![RPG Logo](https://github.com/beka24k/projecteamwork/blob/master/tesst/photo_2023-11-22_10-43-51.jpg)
 
 ## 📋Overview
 
@@ -34,19 +34,19 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 
 <div style="display:flex; justify-content:center; align-items:center;">
     <div style="margin-right:20px;">
-        <img src="img_2.png" alt="Priest" width="300" height="230"/>
+        <img src="https://github.com/beka24k/projecteamwork/blob/master/tesst/priest.jpg" alt="Priest" width="250" height="300">
         <center><h3>Priest</h3></center>
     </div>
     <div style="margin-right:20px;">
-        <img src="img_3.png" alt="Magician" width="300" height="230"/>
+        <img src="https://github.com/beka24k/projecteamwork/blob/master/tesst/mage.jpg" alt="Magician" width="250" height="300">
         <center><h3>Magician</h3></center>
     </div>
 <div style="margin-right:20px;">
-        <img src="img_4.png" alt="Barbarian" width="300" height="230"/>
+        <img src="https://github.com/beka24k/projecteamwork/blob/master/tesst/barbarian.jpg" alt= "Barbarian" width="250" height="300">
         <center><h3>Barbarian</h3></center>
 </div>
  <div>
-        <img src="img_5.png" alt="Warrior" width="300" height="230"/>
+        <img src="https://github.com/beka24k/projecteamwork/blob/master/tesst/warrior.jpg" alt="Warrior" width="250" height="300">
 
 <center><h3>Warrior</h3></center>
     </div>
@@ -105,10 +105,10 @@ This RPG (Role-Playing Game) project is a Java-based game with a character creat
 ---
 ## 📸 Screenshots
 
-![Code Screen](img_7.png)
+![Code Screen](https://github.com/beka24k/projecteamwork/blob/master/tesst/code.png)
 
 
-![Database Structure](img_6.png)
+![Database Structure](https://github.com/beka24k/projecteamwork/blob/master/tesst/photo_2023-11-22_10-50-23.jpg)
 
 
 # 📝Developers' Notes
