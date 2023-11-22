@@ -34,6 +34,8 @@ public class GameGUI {
 
         mainFrame = new JFrame("Игра RPG");
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ImageIcon icon = new ImageIcon(getClass().getResource("/icon.png"));
+        mainFrame.setIconImage(icon.getImage());
 
         mainPanel = new JPanel() {
             @Override
