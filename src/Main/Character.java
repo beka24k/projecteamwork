@@ -33,6 +33,7 @@ public class Character implements CharacterObserver {
 
     private String camp;
 
+
     public Character(){}
 
     public String getName() {

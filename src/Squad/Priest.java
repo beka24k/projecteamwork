@@ -6,7 +6,7 @@ import Observer.CharacterObserver;
 import State.CharacterState;
 
 public class Priest extends Character implements CharacterObserver {
-    public Priest(String name, CharacterState state, CharacterAbility ability) {
+    private Priest(String name, CharacterState state, CharacterAbility ability) {
         super(name, state, ability);
     }
 

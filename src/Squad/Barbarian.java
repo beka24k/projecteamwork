@@ -6,7 +6,7 @@ import Observer.CharacterObserver;
 import State.CharacterState;
 
 public class Barbarian extends Character implements CharacterObserver {
-    public Barbarian(String name, CharacterState state, CharacterAbility ability) {
+    private Barbarian(String name, CharacterState state, CharacterAbility ability) {
         super(name, state, ability);
     }
 

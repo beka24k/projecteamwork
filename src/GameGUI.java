@@ -28,7 +28,7 @@ public class GameGUI {
     private int attackCount = 0;
     private JPanel gamePanel;
     private GameWorld gameWorld = new GameWorld();
-    Player player=new Player(gameWorld, gameWorld.keyH, gameWorld.getPLayer());
+    Player player = new Player(gameWorld, gameWorld.keyH, gameWorld.getPLayer());
 
     public GameGUI() {
 
@@ -140,6 +140,21 @@ public class GameGUI {
         JButton checkStateButtonG = gameWorld.createStyledButton("Состояние Монстра", Color.BLUE);
         panel.add(checkStateButtonG);
         JButton checkStateButtonG2 = gameWorld.createStyledButton("Состояние Персонажа", Color.BLUE);
+
+        JTextField inputField = new JTextField(20);
+        panel.add(inputField);
+
+        JButton submitButton = gameWorld.createStyledButton("Поменять лагерь", Color.ORANGE);
+        panel.add(submitButton);
+
+        submitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String userInput = inputField.getText();
+                character.setCamp(userInput);
+                System.out.println("User input: " + userInput);
+            }
+        });
         panel.add(checkStateButtonG2);
         attackButtonG.addActionListener(new ActionListener() {
             @Override
@@ -162,9 +177,9 @@ public class GameGUI {
                         gameWorld.monster = new ImageIcon(getClass().getResource("/image-removebg-preview.png"));
 
 
-
-
-                    } else if(attackCount==5){gameWorld.monster = new ImageIcon(getClass().getResource("/image-removebg-preview3.png"));}
+                    } else if (attackCount == 5) {
+                        gameWorld.monster = new ImageIcon(getClass().getResource("/image-removebg-preview3.png"));
+                    }
                 }
             }
         });
@@ -177,6 +192,7 @@ public class GameGUI {
                 }
             }
         });
+
         checkStateButtonG2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

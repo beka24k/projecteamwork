@@ -6,7 +6,7 @@ import Observer.CharacterObserver;
 import State.CharacterState;
 
 public class Mage extends Character implements CharacterObserver {
-    public Mage(String name, CharacterState state, CharacterAbility ability) {
+    private Mage(String name, CharacterState state, CharacterAbility ability) {
         super(name, state, ability);
     }
 
