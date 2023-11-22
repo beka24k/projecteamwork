@@ -25,7 +25,7 @@ public class GameWorld extends JPanel implements Runnable {
     private JLabel displified;
 
     int FPS = 60;
-    KeyHandler keyH = new KeyHandler();
+    public KeyHandler keyH = new KeyHandler();
     Thread gameThread;
     private int i;
     Player player=new Player(this,keyH,4);
@@ -66,6 +66,9 @@ public class GameWorld extends JPanel implements Runnable {
 public void setPLayer(int y){
     i=y;
      player = new Player(this, keyH,i);
+}
+public int getPLayer(){
+        return i;
 }
     @Override
     public void run() {

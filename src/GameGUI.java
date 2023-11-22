@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 
+import Entity.Player;
 import Factory.CharacterFactory;
 import Factory.MageFactory;
 import Factory.WarriorFactory;
@@ -27,8 +28,10 @@ public class GameGUI {
     private int attackCount = 0;
     private JPanel gamePanel;
     private GameWorld gameWorld = new GameWorld();
+    Player player=new Player(gameWorld, gameWorld.keyH, gameWorld.getPLayer());
 
     public GameGUI() {
+
         mainFrame = new JFrame("Игра RPG");
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -42,7 +45,9 @@ public class GameGUI {
         };
         mainPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 50));
         mainFrame.add(mainPanel);
+        playSound("src/8 Bit RPG Game Music (Retro Chiptune) MP3 Download - Zelda Style.wav");
         playSound("src/interface-124464.wav");
+
         startButton = gameWorld.createStyledButton("Начать игру", Color.GREEN);
         mainPanel.add(startButton);
 
@@ -52,7 +57,7 @@ public class GameGUI {
             public void actionPerformed(ActionEvent e) {
                 createCharacter();
                 openGameWindow();
-                playSound("src/the-white-lion-10379.wav");
+
             }
         });
 
